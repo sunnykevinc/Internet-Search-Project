@@ -3,8 +3,8 @@ from langchain import OpenAI, SerpAPIWrapper
 from langchain.agents import initialize_agent, Tool
 from langchain.agents import AgentType
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "52ef0648b26613c31e68069c46eae702a436c37594541671911be42468abb87a"
+os.environ["OPENAI_API_KEY"] = "YOUR KEY HERE"
+os.environ["SERPAPI_API_KEY"] = "YOUR KEY HERE"
 
 llm = OpenAI(temperature=0)
 search = SerpAPIWrapper()
